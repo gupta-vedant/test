@@ -1,0 +1,25 @@
+.chart{
+    background-color: rgb(231, 223, 223);
+    overflow: hidden;
+    height:40vh;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   .chart {
+      width: 110%;
+      height: 80vh;
+      margin-top: 80%;
+    }
+  
+  }
+  @media only screen and (max-width: 1024px) {
+  
+   .chart {
+      width: 110%;
+      height: 50vh;
+      margin-top: 170%;
+   
+    }
+  
+  }
